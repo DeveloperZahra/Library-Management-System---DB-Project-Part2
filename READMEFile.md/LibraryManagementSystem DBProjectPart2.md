@@ -82,10 +82,12 @@
  
   19. GET /books/never-loaned → List books that were never loaned
   
-
         ![](SelectQueriesImage/Q19.png)
 
+20. GET /payments →List all payments with member name and book title
 
+      ![](SelectQueriesImage/Q20.png)
+ 1. 
 
 
 
