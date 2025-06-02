@@ -155,10 +155,28 @@ Apply indexes to speed up commonly-used queries:
    ![](IndexesSqlImage/Q7.png)
 
 
+✅  Views – Frontend Integration Support 
+
+1. ViewPopularBooks --> Books with average rating > 4.5 + total loans 
+
+   ![](ViewsSqlImage/Q1.png)
+
+2. ViewMemberLoanSummary --> Member loan count + total fines paid
+
+   ![](ViewsSqlImage/Q2.png)
+
+3. ViewAvailableBooks --> Available books grouped by genre, ordered by price
+
+   ![](ViewsSqlImage/Q3.png)
+
+4. ViewLoanStatusSummary --> Loan stats (issued, returned, overdue) per library
+      
+      ![](ViewsSqlImage/Q4.png)
 
  
- 
+5. ViewPaymentOverview--> Payment info with member, book, and status. 
 
+     ![](ViewsSqlImage/Q5.png)
 
 
 
