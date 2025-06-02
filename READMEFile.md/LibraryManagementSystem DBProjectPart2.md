@@ -217,4 +217,21 @@ Apply indexes to speed up commonly-used queries:
 
     ![](FunctionSqlImage/Q8.png)
  
+✅ Stored Procedures – Backend Automation
 
+1. sp_MarkBookUnavailable(BookID)--> Updates availability after issuing 
+
+    ![](StoredProceduresImage/Q1.png)
+
+
+2. sp_UpdateLoanStatus()--> Checks dates and updates loan statuses
+      
+        
+    ![](StoredProceduresImage/Q2.png)
+
+
+
+3. sp_RankMembersByFines()--> Ranks members by total fines paid 
+
+    
+    ![](StoredProceduresImage/Q3.png)
