@@ -96,6 +96,12 @@
   
        ![](SelectQueriesImage/Q22.png)
 
+23. GET /members/:id/fines → Get total fines paid by a member across all loans
+ 
+       ![](SelectQueriesImage/Q23.png)
+ 
+ 
+
 
 
 
