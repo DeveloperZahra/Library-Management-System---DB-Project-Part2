@@ -56,6 +56,11 @@
 
          ![](SelectQueriesImage/Q12.png)
 
+ 13. GET /books/price-range?min=5&max=15 → Show books whose prices fall within a given range
+
+       ![](SelectQueriesImage/Q13.png)
+
+
 
 
 
