@@ -64,6 +64,12 @@
        
       ![](SelectQueriesImage/Q14.png)
 
+ 15. GET /members/with-fines → List members who have paid any fine
+
+        ![](SelectQueriesImage/Q15.png)
+
+
+
 
 
 
