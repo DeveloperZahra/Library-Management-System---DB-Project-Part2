@@ -35,7 +35,16 @@
  7. GET /payments/summary → Total fine paid per member
 
        ![](SelectQueriesImage/Q7.png)
- 1. 
+
+ 8. GET /reviews → Reviews with member and book info
+
+      ![](SelectQueriesImage/Q8.png)
+
+9. GET /books/popular → List top 3 books by number of times they were loaned
+
+      ![](SelectQueriesImage/Q9.png)
+
+
 
  
 
