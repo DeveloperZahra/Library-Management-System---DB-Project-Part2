@@ -72,6 +72,10 @@
 
        ![](SelectQueriesImage/Q16.png)
 
+17. GET /members/:id/loan-history →Show a member’s loan history with book titles and loan status
+
+       ![](SelectQueriesImage/Q17.png)
+
 
 
 
