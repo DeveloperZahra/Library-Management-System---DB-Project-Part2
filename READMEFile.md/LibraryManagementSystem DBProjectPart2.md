@@ -92,6 +92,12 @@
 
        ![](SelectQueriesImage/Q21.png)
 
+ 22. GET /books/:id/loan-count → Show how many times a book has been loaned
+  
+       ![](SelectQueriesImage/Q22.png)
+
+
+
 
 
 
