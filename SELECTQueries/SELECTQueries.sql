@@ -35,19 +35,16 @@ SET Availability_Status = 0
 WHERE Book_ID IN (3, 5);
 
 --> 3. GET /members/top-borrowers → Members who borrowed >2 books 
-
 SELECT 
-    M.Member_ID,
-    M.Name,
-    COUNT(L.Loan_ID) AS Total_Borrowed
+
+     M.Name, COUNT(*) AS BorrowedBooks
 FROM 
-    Member M
-JOIN 
-    Loan L ON M.Member_ID = L.Member_ID
-GROUP BY 
-    M.Member_ID, M.Name
-HAVING 
-    COUNT(L.Loan_ID) > 2;
+     Loan L
+JOIN
+      Member M ON L.Member_ID = M.Member_ID
+GROUP BY
+           M.Name
+HAVING COUNT(*) > 1;
 
 -->4. GET /books/:id/ratings → Show average rating per book 
 -- Declare the variable
@@ -70,17 +67,17 @@ GROUP BY
 
 --> 6. GET /members/inactive → List members with no loans 
 SELECT 
-    M.Member_ID,
-    M.Name,
-    M.Email,
-    M.Phone,
-    M.Membership_Start_Date
+    M.*
 FROM 
     Member M
 LEFT JOIN 
     Loan L ON M.Member_ID = L.Member_ID
 WHERE 
-    L.Member_ID IS NULL;
+     M.Member_ID IS NULL;
+
+SELECT * FROM Member
+
+SELECT * FROM Loan
 
 --> 7. GET /payments/summary → Total fine paid per member
 
@@ -246,10 +243,13 @@ FROM
     Member M
 LEFT JOIN 
     Loan L ON M.Member_ID = L.Member_ID
-WHERE 
-    L.Loan_ID IS NULL;
+WHERE
+    M.Member_ID  IS  NULL;
 
 
+SELECT * FROM Member
+
+SELECT * FROM Loan 
 
 --> 19. GET /books/never-loaned → List books that were never loaned
 SELECT 
@@ -262,7 +262,6 @@ WHERE
     L.Loan_ID IS NULL;
 
 --> 20. GET /payments →List all payments with member name and book title
-
 
 SELECT
      M.Name,
@@ -278,7 +277,6 @@ JOIN
       Book B ON L.Book_ID = B.Book_ID;
 
 --> 21. GET /loans/overdue→ List all overdue loans with member and book details.
-
 SELECT
     L.Loan_ID,
     M.Member_ID,
@@ -357,11 +355,12 @@ SELECT
 FROM 
     Review R
 JOIN 
-    Book B ON R.Book_ID = B.Book_ID
+    Book B ON B.Book_ID = R.Book_ID
 GROUP BY 
     B.Book_ID, B.Title
 HAVING 
-    COUNT(R.Review_ID) > 5
-    AND AVG(R.Rating) > 4.5;
+    COUNT(R.Review_ID) >= 1
+    AND AVG(R.Rating) >= 2;
+
 
 	
