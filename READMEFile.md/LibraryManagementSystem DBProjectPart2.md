@@ -68,7 +68,9 @@
 
         ![](SelectQueriesImage/Q15.png)
 
+ 16. GET /books/never-reviewed →  List books that have never been reviewed
 
+       ![](SelectQueriesImage/Q16.png)
 
 
 
