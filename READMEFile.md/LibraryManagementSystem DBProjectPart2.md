@@ -44,7 +44,9 @@
 
       ![](SelectQueriesImage/Q9.png)
 
+10. GET /members/:id/history → Retrieve full loan history of a specific member including book title, loan & return dates
 
+     ![](SelectQueriesImage/Q10.png)
 
  
 
