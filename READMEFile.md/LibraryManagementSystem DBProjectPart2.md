@@ -139,23 +139,23 @@ Apply indexes to speed up commonly-used queries:
 
 
 
-
-
-
-
-
-
-
-
 3. Loan Table 
 
 • Non-clustered on MemberID → Loan history
 
+  ![](IndexesSqlImage/Q5.png)
+
 • Non-clustered on Status → Filter by status 
+
+   ![](IndexesSqlImage/Q6.png)
+
 
 • Composite index on BookID, LoanDate, ReturnDate → Optimize overdue checks 
  
- 
+   ![](IndexesSqlImage/Q7.png)
+
+
+
  
  
 
