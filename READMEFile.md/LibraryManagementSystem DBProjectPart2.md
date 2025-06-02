@@ -52,6 +52,10 @@
 
        ![](SelectQueriesImage/Q11.png)
  
+  12. GET /libraries/:id/staff → List all staff working in a given library
+
+         ![](SelectQueriesImage/Q12.png)
+
 
 
 
