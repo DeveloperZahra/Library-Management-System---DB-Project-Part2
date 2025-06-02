@@ -21,7 +21,14 @@
     
     ![](SelectQueriesImage/Q4.png) 
 
-1. 
+
+5. GET /libraries/:id/genres → Count books by genre
+
+     
+    ![](SelectQueriesImage/Q5.png)
+
+
+
 
 
 
