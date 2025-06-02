@@ -109,9 +109,52 @@
  25. GET /reviews/top-rated → Return books with more than 5 reviews and average rating > 4.5.
   
         ![](SelectQueriesImage/Q25.png)
-  1. 
   
+✅  Indexing Strategy – Performance Optimization
 
+Apply indexes to speed up commonly-used queries: 
+
+1. Library Table 
+
+• Non-clustered on Name → Search by name 
+
+• Non-clustered on Location → Filter by location 
+
+
+
+
+
+
+
+
+
+2. Book Table 
+
+• Clustered on LibraryID, ISBN → Lookup by book in specific library
+
+• Non-clustered on Genre → Filter by genre 
+
+
+
+
+
+
+
+
+
+
+
+3. Loan Table 
+
+• Non-clustered on MemberID → Loan history
+
+• Non-clustered on Status → Filter by status 
+
+• Composite index on BookID, LoanDate, ReturnDate → Optimize overdue checks 
+ 
+ 
+ 
+ 
 
 
 
