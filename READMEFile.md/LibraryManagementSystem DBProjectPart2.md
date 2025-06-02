@@ -60,6 +60,12 @@
 
        ![](SelectQueriesImage/Q13.png)
 
+14. GET /loans/active → List all currently active loans (not yet returned) with member and book info
+       
+      ![](SelectQueriesImage/Q14.png)
+
+
+
 
 
 
