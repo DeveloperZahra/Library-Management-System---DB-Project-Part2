@@ -27,6 +27,11 @@
      
     ![](SelectQueriesImage/Q5.png)
 
+ 6. GET /members/inactive → List members with no loans
+
+
+ 
+
 
 
 
