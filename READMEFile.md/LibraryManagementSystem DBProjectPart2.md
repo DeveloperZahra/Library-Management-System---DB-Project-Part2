@@ -126,15 +126,16 @@ Apply indexes to speed up commonly-used queries:
 
 
 
-
-
-
-
 2. Book Table 
 
 • Clustered on LibraryID, ISBN → Lookup by book in specific library
 
+   ![](IndexesSqlImage/Q3.png)
+
+
 • Non-clustered on Genre → Filter by genre 
+
+   ![](IndexesSqlImage/Q4.png)
 
 
 
