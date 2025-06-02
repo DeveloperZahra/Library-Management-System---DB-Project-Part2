@@ -76,6 +76,13 @@
 
        ![](SelectQueriesImage/Q17.png)
 
+ 18. GET /members/inactive →List all members who have never borrowed any book.
+ 
+        ![](SelectQueriesImage/Q18.png)
+
+
+
+
 
 
 
