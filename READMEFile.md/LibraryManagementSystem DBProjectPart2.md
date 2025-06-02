@@ -30,6 +30,7 @@
  6. GET /members/inactive → List members with no loans
 
       ![](SelectQueriesImage/Q6.png)
+ 
 
 
  7. GET /payments/summary → Total fine paid per member
@@ -79,6 +80,7 @@
  18. GET /members/inactive →List all members who have never borrowed any book.
  
         ![](SelectQueriesImage/Q18.png)
+  
  
   19. GET /books/never-loaned → List books that were never loaned
   
@@ -104,6 +106,11 @@
  
         ![](SelectQueriesImage/Q24.png)
 
+ 25. GET /reviews/top-rated → Return books with more than 5 reviews and average rating > 4.5.
+  
+        ![](SelectQueriesImage/Q25.png)
+  1. 
+  
 
 
 
