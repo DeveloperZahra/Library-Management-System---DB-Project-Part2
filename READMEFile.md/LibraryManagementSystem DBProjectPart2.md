@@ -118,9 +118,11 @@ Apply indexes to speed up commonly-used queries:
 
 • Non-clustered on Name → Search by name 
 
+   ![](IndexesSqlImage/Q1.png)
+
 • Non-clustered on Location → Filter by location 
 
-
+   ![](IndexesSqlImage/Q2.png)
 
 
 
