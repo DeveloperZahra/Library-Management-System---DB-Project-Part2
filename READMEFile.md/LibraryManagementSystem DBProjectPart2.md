@@ -29,6 +29,13 @@
 
  6. GET /members/inactive → List members with no loans
 
+      ![](SelectQueriesImage/Q6.png)
+
+
+ 7. GET /payments/summary → Total fine paid per member
+
+       ![](SelectQueriesImage/Q7.png)
+ 1. 
 
  
 
