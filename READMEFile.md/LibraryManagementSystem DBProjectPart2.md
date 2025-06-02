@@ -7,4 +7,13 @@
 
 ![](SelectQueriesImage/Q1.png) 
 
+ 2. GET /books/unavailable → List books not available
+	
+
+	
+![](SelectQueriesImage/Q2.png) 
+
+
+
+
 
