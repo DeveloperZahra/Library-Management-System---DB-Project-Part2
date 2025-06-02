@@ -178,20 +178,43 @@ Apply indexes to speed up commonly-used queries:
 
      ![](ViewsSqlImage/Q5.png)
 
+✅ Functions – Reusable Logic
+
+1. GetBookAverageRating(BookID) Returns average rating of a book
+
+    ![](FunctionSqlImage/Q1.png)
+
+ 2. GetNextAvailableBook(Genre, Title, LibraryID) --> Fetches the next available book 
+
+  ![](FunctionSqlImage/Q2.png)
+
+    
+3. CalculateLibraryOccupancyRate(LibraryID)--> Returns % of books currently issued 
+      
+      ![](FunctionSqlImage/Q3.png)
+    
+4. fn_GetMemberLoanCount-->  Return the total number of loans made by a given member
+
+     ![](FunctionSqlImage/Q4.png)
 
 
+5. fn_GetLateReturnDays--> Return the number of late days for a loan (0 if not late)
 
-
-
-
-
+    ![](FunctionSqlImage/Q5.png)
 
  
+6. fn_ListAvailableBooksByLibrary--> Returns a table of available books from a specific library.
+
+   ![](FunctionSqlImage/Q6.png)
 
 
+ 7. fn_GetTopRatedBooks--> Returns books with average rating ≥ 4.5
 
+     ![](FunctionSqlImage/Q7.png)
+ 
 
+ 8. fn_FormatMemberName-->  Returns  the  full  name  formatted  as  "LastName, FirstName"
 
-
-
+    ![](FunctionSqlImage/Q8.png)
+ 
 
