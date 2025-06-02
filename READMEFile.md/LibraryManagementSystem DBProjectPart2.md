@@ -16,6 +16,13 @@
 
     ![](SelectQueriesImage/Q3.png) 
 
+4. GET /books/:id/ratings → Show average rating per book -- Declare the variable
+
+    
+    ![](SelectQueriesImage/Q4.png) 
+
+1. 
+
 
 
 
