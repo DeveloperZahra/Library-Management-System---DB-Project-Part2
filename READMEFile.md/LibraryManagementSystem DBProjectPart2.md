@@ -235,3 +235,20 @@ Apply indexes to speed up commonly-used queries:
 
     
     ![](StoredProceduresImage/Q3.png)
+
+✅ Triggers – Real-Time Business Logic
+
+1. trg_UpdateBookAvailability After new loan → set book to unavailable 
+
+     
+    ![](TriggersImage/Q1.png)
+
+
+2. trg_CalculateLibraryRevenue After new payment → update library revenue
+
+     ![](TriggersImage/Q2.png) 
+
+3. trg_LoanDateValidation Prevents invalid return dates on insert
+
+      ![](TriggersImage/Q3.png)
+1. 
