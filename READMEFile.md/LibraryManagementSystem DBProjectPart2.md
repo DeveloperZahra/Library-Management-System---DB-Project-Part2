@@ -48,6 +48,13 @@
 
      ![](SelectQueriesImage/Q10.png)
 
+11. GET /books/:id/reviews → Show all reviews for a book with member name and comments
+
+       ![](SelectQueriesImage/Q11.png)
+ 
+
+
+
  
 
 
