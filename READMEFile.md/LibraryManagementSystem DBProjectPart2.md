@@ -251,4 +251,85 @@ Apply indexes to speed up commonly-used queries:
 3. trg_LoanDateValidation Prevents invalid return dates on insert
 
       ![](TriggersImage/Q3.png)
-1. 
+
+✅ Aggregation Functions – Dashboard Reports
+
+
+1. Total fines per member 
+
+
+      ![](AggregationsImage/Q1.png) 
+
+
+2.  Most active libraries (by loan count) 
+
+   ![](AggregationsImage/Q2.png) 
+
+
+
+
+3.  Avg book price per genre 
+
+
+      ![](AggregationsImage/Q3.png) 
+
+
+
+
+4. Top 3 most reviewed books 
+
+
+   ![](AggregationsImage/Q4.png) 
+
+
+
+5. Library revenue report 
+
+
+  ![](AggregationsImage/Q5.png)  
+
+
+
+6.  Member activity summary (loan + fines)
+
+       ![](AggregationsImage/Q6.png) 
+ 
+
+✅ Advanced Aggregations – Analytical Insight
+
+
+
+
+1. HAVING for filtering aggregates 
+
+
+  ![](AdvancedAggregationsImage/Q1.png)    
+
+
+
+
+2.  Subqueries for complex logic (e.g., max price per genre) 
+
+      
+  ![](AdvancedAggregationsImage/Q2.png)   
+
+
+
+3.  Occupancy rate calculations 
+
+   
+  ![](AdvancedAggregationsImage/Q3.png)  
+
+
+
+4. Members with loans but no fine
+
+   
+
+  ![](AdvancedAggregationsImage/Q4.png)  
+
+
+5. Genres with high average ratings
+
+    
+  ![](AdvancedAggregationsImage/Q5.png) 
