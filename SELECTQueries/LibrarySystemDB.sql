@@ -18,6 +18,8 @@ CREATE TABLE Library (
     CONSTRAINT PK_Library_ID PRIMARY KEY (Library_ID)
 );
 
+ALTER TABLE Library
+ADD Revenue DECIMAL(10,2) DEFAULT 0;
 
 
 CREATE TABLE Member (
@@ -28,6 +30,10 @@ CREATE TABLE Member (
     Membership_Start_Date DATE NOT NULL,
     CONSTRAINT PK_Member_ID PRIMARY KEY (Member_ID)
 );
+
+ALTER TABLE Book
+ADD IsAvailable BIT DEFAULT 1;
+
 
 CREATE TABLE Book (
     Book_ID INT IDENTITY,
