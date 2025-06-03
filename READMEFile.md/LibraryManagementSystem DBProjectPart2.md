@@ -333,3 +333,31 @@ Apply indexes to speed up commonly-used queries:
 
     
   ![](AdvancedAggregationsImage/Q5.png) 
+
+
+  
+✅ Transactions – Ensuring Consistency
+
+
+1.  Borrowing a book (loan insert + update availability)
+ 
+   
+  ![](TransactionsImage/Q1.png)  
+
+
+2.  Returning a book (update status, return date, availability)
+
+     
+  ![](TransactionsImage/Q2.png)  
+
+
+
+  3.  Registering a payment (with validation) 
+
+     
+  ![](TransactionsImage/Q3.png)  
+
+
+  4. Batch loan insert with rollback on failure
+     
+  ![](TransactionsImage/Q4.png) 
